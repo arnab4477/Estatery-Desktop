@@ -10,7 +10,7 @@ export interface EstateType {
   popular: boolean;
   address: string;
   location: string;
-  moveInDate: [Date, Date];
+  moveInDate: [string, string];
 }
 
 /**
@@ -29,7 +29,7 @@ const EstateData: EstateType[] = [
     popular: true,
     address: '909 Woodland St, Michigan, IN',
     location: 'Indiana',
-    moveInDate: [new Date('2023-03-01'), new Date('2023-04-30')],
+    moveInDate: ['2023-03-01', '2023-04-30'],
   },
   {
     name: 'Beverly Springfield',
@@ -43,7 +43,7 @@ const EstateData: EstateType[] = [
     popular: true,
     address: '2821 Lake Sevilla, Palm Harbor, TX',
     location: 'Texas',
-    moveInDate: [new Date('2023-01-10'), new Date('2023-04-10')],
+    moveInDate: ['2023-01-10', '2023-04-10'],
   },
   {
     name: 'Palm Harbor',
@@ -57,7 +57,7 @@ const EstateData: EstateType[] = [
     popular: false,
     address: '2699 Green Valley, Highlands, FL',
     location: 'Florida',
-    moveInDate: [new Date('2023-02-10'), new Date('2023-03-10')],
+    moveInDate: ['2023-02-10', '2023-03-10'],
   },
   {
     name: 'NY House',
@@ -71,7 +71,7 @@ const EstateData: EstateType[] = [
     popular: true,
     address: '6493 Red Valley, 12 Street, NY',
     location: 'New York',
-    moveInDate: [new Date('2023-01-01'), new Date('2023-04-20')],
+    moveInDate: ['2023-01-01', '2023-04-20'],
   },
   {
     name: 'Alabama House',
@@ -86,7 +86,7 @@ const EstateData: EstateType[] = [
     popular: false,
     address: '4321 Blue Valley, Lowlands, AL',
     location: 'Alabama',
-    moveInDate: [new Date('2023-03-01'), new Date('2023-05-28')],
+    moveInDate: ['2023-03-01', '2023-05-28'],
   },
   {
     name: 'NYC Apartment',
@@ -100,7 +100,7 @@ const EstateData: EstateType[] = [
     popular: true,
     address: '123 Times Square, New York City, NYC',
     location: 'New York',
-    moveInDate: [new Date('2023-02-10'), new Date('2023-03-10')],
+    moveInDate: ['2023-02-10', '2023-03-10'],
   },
   {
     name: 'SF Apartment',
@@ -114,7 +114,7 @@ const EstateData: EstateType[] = [
     popular: false,
     address: '567 Main Street, San Fransisco, CA',
     location: 'California',
-    moveInDate: [new Date('2023-02-15'), new Date('2023-04-10')],
+    moveInDate: ['2023-02-15', '2023-04-10'],
   },
   {
     name: 'LA Apartment',
@@ -128,7 +128,7 @@ const EstateData: EstateType[] = [
     popular: true,
     address: '9876 Hollywood Valley, Los Angelos, CA',
     location: 'California',
-    moveInDate: [new Date('2023-01-10'), new Date('2023-04-10')],
+    moveInDate: ['2023-01-10', '2023-04-10'],
   },
   {
     name: 'Chicago Apartment',
@@ -142,7 +142,7 @@ const EstateData: EstateType[] = [
     popular: false,
     address: '4567 Park Station, Chicago, IL',
     location: 'Illinios',
-    moveInDate: [new Date('2023-02-10'), new Date('2023-03-10')],
+    moveInDate: ['2023-02-10', '2023-03-10'],
   },
 ];
 
